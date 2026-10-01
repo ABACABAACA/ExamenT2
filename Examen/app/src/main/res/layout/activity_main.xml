@@ -26,4 +26,38 @@
         tools:layout_editor_absoluteX="-31dp"
         tools:layout_editor_absoluteY="146dp" />
 
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <RadioGroup
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="192dp">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Armadura de Hierro " />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Escudo de Isengard"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </RadioGroup>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
